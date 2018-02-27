@@ -9,12 +9,14 @@
     android:orientation="vertical"
     tools:context="com.androidtutors.buttonandroidexample.MainActivity">
 
+    <!-- TODO 4 : Add an id textview-hello to the textview with "Hello World!" -->
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:text="Hello World!"
+        android:id="@+id/textview_hello"/>
 
-    <!-- TODO 4 : Add an id textview-hello to the textview with "Hello World!" -->
+
     <!-- TODO 5 : Add a button with text "Click Me" and id button_example -->
     <!-- TODO 6 : Set layout_width and layout_height to wrap_content -->
 
