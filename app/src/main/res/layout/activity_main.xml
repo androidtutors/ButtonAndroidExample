@@ -2,29 +2,26 @@
 <!-- TODO 1 : Change from ConstraintLayout to LinearLayout -->
 <!-- TODO 2 : Delete all the attributes related to ConstraintLayout -->
 <!-- TODO 3 : Change orientation to vertical -->
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context="com.androidtutors.buttonandroidexample.MainActivity">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:text="Hello World!" />
 
     <!-- TODO 4 : Add an id textview-hello to the textview with "Hello World!" -->
     <!-- TODO 5 : Add a button with text "Click Me" and id button_example -->
     <!-- TODO 6 : Set layout_width and layout_height to wrap_content -->
+
     <!-- TODO 11 : Change text size of textview_hello to 40sp and button_example to 20sp -->
     <!-- TODO 12 : Add layout_margin of 16dp to both textview_hello and button_example -->
     <!-- TODO 13 : Set layout_gravity to center for both textview_hello and button_example -->
 
 
 
-</android.support.constraint.ConstraintLayout>
+</LinearLayout>
