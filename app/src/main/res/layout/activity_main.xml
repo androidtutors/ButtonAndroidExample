@@ -16,7 +16,8 @@
         android:text="Hello World!"
         android:id="@+id/textview_hello"
         android:textSize="40sp"
-        android:layout_margin="16dp"/>
+        android:layout_margin="16dp"
+        android:layout_gravity="center"/>
 
 
     <!-- TODO 5 : Add a button with text "Click Me" and id button_example -->
@@ -27,7 +28,8 @@
         android:id="@+id/button_example"
         android:text="Click Me"
         android:textSize="20sp"
-        android:layout_margin="16dp"/>
+        android:layout_margin="16dp"
+        android:layout_gravity="center"/>
 
     <!-- TODO 11 : Change text size of textview_hello to 40sp and button_example to 20sp -->
     <!-- TODO 12 : Add layout_margin of 16dp to both textview_hello and button_example -->
